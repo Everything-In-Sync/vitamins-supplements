@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <title>Vitamin and Supplement Search</title>
 </head>
 <body>
-    
+    <section class="header">
+
+    </section>
+    <section class="search">
+        <form>
+            <input id="input-value" type="text" placeholder="enter vitamin here" required>
+            <span id="submit" class="button">Submit </span>
+            <div id="error"></div>
+        </form>
+    </section>
+    <section class="vit-info">
+        <div id="vit-name"></div>
+        <div id="vit-food"></div>
+        <div id="vit-benefits"></div>
+        <div id="vit-per-day"></div>
+    </section>
 </body>
+<script src="assets/js/vitamins.js"></script>
+<script src="assets/js/main.js"></script>
+
 </html>
+
+<!--
+    YOu are going to have a main object containing objects that each are the name of the vitamin. A, C, D...etc..
+    each one of those will have properties like, how much per day, health benefits, food containing that vitamin, any other things
+    that you may come up with later.
+
+    When the user types into the search bar, you need to save what they type, make everything lowercase, if there is the word "vitamin" before the letter,
+    then remove that word, then you are going to search through your objects until it finds the vitamin they are asking for, it then displays all of the 
+    properties in a nice neat pretty way under the search bar.
+
+    The search bar can then reset, or turn into a button that says search again or something, depends on how everything ends up working.
+
+
+
+-->
