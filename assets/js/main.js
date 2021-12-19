@@ -13,6 +13,7 @@ function clearDisplay(){
     vitFood.innerHTML = "";
     vitBenefits.innerHTML = "";
     vitPerDay.innerHTML = "";
+    vitSource.innerHTML = "";
 }
 function getInput() {
     let vitamin = inputValue.value;
