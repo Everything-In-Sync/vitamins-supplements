@@ -4,11 +4,24 @@
 let vitamins = [
     {
         name: 'C',
-        food: `Red Pepper (½ Cup): 95mg <br>
+        food: `Red Pepper (Raw ½ Cup): 95mg <br>
         Orange (Medium): 70mg <br>
         Kiwi (Medium): 64mg <br>
 
+        <div class="box">
+            <a class="button" href="#popup1">More</a>
+        </div>
+    
+    <div id="popup1" class="overlay">
+        <div class="popup">
 
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                Green Pepper (Raw ½ cup): 60mg <br>
+                Broccoli (Cooked ½ cup) 51mg <br>
+            </div>
+        </div>
+    </div>
         
         `,
         benefits: `Antioxidant, Immune Function, Iron Absorption`,
