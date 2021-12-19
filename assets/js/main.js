@@ -2,6 +2,7 @@ const vitName = document.querySelector('#vit-name');
 const vitFood = document.querySelector('#vit-food');
 const vitBenefits = document.querySelector('#vit-benefits');
 const vitPerDay = document.querySelector('#vit-per-day');
+const vitSource = document.querySelector('#vit-source');
 const submit = document.querySelector('#submit');
 let inputValue = document.querySelector('#input-value');
 const error = document.querySelector('#error');
@@ -38,8 +39,10 @@ function getInput() {
             vitFood.innerHTML = `<strong>Food Sources:</strong><br> ${currentVitamin.food}`;
             vitBenefits.innerHTML =`<strong>Benefits:</strong><br> ${currentVitamin.benefits}`;
             vitPerDay.innerHTML =`<strong>Recommended DV:</strong><br> ${currentVitamin.perDay}`;
+            vitSource.innerHTML=`<strong>Source: </strong><br> ${currentVitamin.source}`;
         } else {
             error.innerHTML = "We do not have the vitamin you are looking for, please try again"
         }
     }
 }
+
