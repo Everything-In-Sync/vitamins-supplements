@@ -8,15 +8,7 @@ let vitamins = [
         Orange (Medium): 70mg <br>
         Kiwi (Medium): 64mg <br>
 
-        <div class="popover__wrapper">
-            <a href="#">
-                <span class="popover-title">More</span>
-            </a>
-            <div class="popover__content">
-                <p class="popover__message">Joseph Francis "Joey" Tribbiani, Jr.</p>
-    
-            </div>
-        </div>
+
         
         `,
         benefits: `Antioxidant, Immune Function, Iron Absorption`,
