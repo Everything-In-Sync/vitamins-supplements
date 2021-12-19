@@ -42,6 +42,7 @@ function getInput() {
             vitPerDay.innerHTML =`<strong>Recommended DV:</strong><br> ${currentVitamin.perDay}`;
             vitSource.innerHTML=`<strong>Source: </strong><br> ${currentVitamin.source}`;
         } else {
+            clearDisplay()
             error.innerHTML = "We do not have the vitamin you are looking for, please try again"
         }
     }
