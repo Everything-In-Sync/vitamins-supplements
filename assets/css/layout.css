@@ -1,0 +1,16 @@
+.search{
+    text-align: center;
+    margin-top: 25vh;
+}
+.error{
+    padding-top: 20px;
+}
+.vit-info-container{
+    padding-left: 50%;
+    padding-right: 50%;
+    align-items: center;
+}
+.vit-info{
+    text-align: left;
+    padding-top: 20px;
+}

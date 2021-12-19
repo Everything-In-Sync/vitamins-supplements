@@ -18,7 +18,7 @@ function getInput() {
     //checks to make sure the user typed something in, if not, display error message
     if (vitamin === "") {
         clearDisplay()
-        error.innerHTML = "Please enter the name of the vitamin";
+        error.innerHTML = "Please enter the name of a vitamin";
     }
     //if the user types in "vitamin c" instead of "c" this checks, then removes the word vitamin
     //if they don't type "vitamin, it continues. It also changes lower case to upper case"
@@ -43,7 +43,3 @@ function getInput() {
         }
     }
 }
-//if the array index is equal to the object id, then use that index number to display the rest of the properties
-// && vitamins.id == vitamins.indexOf()
-// let place = vitamins.indexOf()
-// console.log(place);

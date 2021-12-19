@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/design.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
     <title>Vitamin and Supplement Search</title>
 </head>
+
 <body>
     <section class="header">
 
     </section>
     <section class="search">
         <form>
-            <input id="input-value" type="text" placeholder="enter vitamin here" required>
-            <span id="submit" class="button">Submit </span>
-            <div id="error"></div>
+            <input id="input-value" class="input" type="text" placeholder="Enter vitamin here" required>
+            <div id="submit" class="button">Search </div>
+            <div id="error" class="error"></div>
         </form>
     </section>
-    <section class="vit-info">
-        <div id="vit-name"></div>
-        <div id="vit-food"></div>
-        <div id="vit-benefits"></div>
-        <div id="vit-per-day"></div>
-    </section>
+    <container class="vit-info-container">
+        <section class="vit-info">
+            <div id="vit-name"></div>
+            <div id="vit-food"></div>
+            <div id="vit-benefits"></div>
+            <div id="vit-per-day"></div>
+        </section>
+    </container>
 </body>
 <script src="assets/js/vitamins.js"></script>
 <script src="assets/js/main.js"></script>
