@@ -18,5 +18,11 @@ body{
 }
 .vit-info{
     text-align: left;
-    padding-top: 100px;
+    padding-top: 70px;
+}
+.vit-name{
+    padding-bottom: 20px;
+}
+.vit-padding{
+    padding-top: 20px;
 }

@@ -16,3 +16,4 @@ let vitamins = [
 
 ]
 
+//Can add another property with a link to the scientific journal source

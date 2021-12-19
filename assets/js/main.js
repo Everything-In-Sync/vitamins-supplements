@@ -34,10 +34,10 @@ function getInput() {
             }
             //Finds the current vitamin by formatted name and displays the rest of the properties
             let currentVitamin = vitamins.find(vitaminName => displayName(vitaminName));
-            vitName.innerHTML = "Vitamin " + currentVitamin.name;
-            vitFood.innerHTML = "Foods with Highest Concentrations: " + currentVitamin.food;
-            vitBenefits.innerHTML ="Health Benefits: " + currentVitamin.benefits;
-            vitPerDay.innerHTML ="Reccomended Daily Value: " + currentVitamin.perDay;
+            vitName.innerHTML = `<strong>Vitamin ${currentVitamin.name}</strong>`;
+            vitFood.innerHTML = `<strong>Food Sources:</strong><br> ${currentVitamin.food}`;
+            vitBenefits.innerHTML =`<strong>Benefits:</strong><br> ${currentVitamin.benefits}`;
+            vitPerDay.innerHTML =`<strong>Recommended DV:</strong><br> ${currentVitamin.perDay}`;
         } else {
             error.innerHTML = "We do not have the vitamin you are looking for, please try again"
         }
