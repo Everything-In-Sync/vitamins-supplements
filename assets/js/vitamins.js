@@ -16,9 +16,9 @@ let vitamins = [
         <div class="popup">
 
             <a class="close" href="#">&times;</a>
-            <div class="content">
+            <div class="popup-content">
                 Green Pepper (Raw ½ cup): 60mg <br>
-                Broccoli (Cooked ½ cup) 51mg <br>
+                Broccoli (Cooked ½ cup): 51mg <br>
             </div>
         </div>
     </div>

@@ -35,7 +35,9 @@ input[type="text"]::placeholder {
 }
 /* Modal */
 
-  
+  .popup-content{
+      font-size: 18px;
+  }
 
   
   .box {
@@ -109,9 +111,6 @@ input[type="text"]::placeholder {
   }
   
   @media screen and (max-width: 700px){
-    .box{
-      width: 70%;
-    }
     .popup{
       width: 70%;
     }
