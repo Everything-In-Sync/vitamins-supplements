@@ -36,7 +36,10 @@ input[type="text"]::placeholder {
 /* Modal */
 
   .popup-content{
+      padding-top: 25px;
       font-size: 18px;
+      max-height: 30%;
+      overflow: auto;
   }
 
   
@@ -105,9 +108,8 @@ input[type="text"]::placeholder {
   }
 
   .popup .content {
-      padding-top:25px;
-    max-height: 30%;
-    overflow: auto;
+
+
   }
   
   @media screen and (max-width: 700px){
