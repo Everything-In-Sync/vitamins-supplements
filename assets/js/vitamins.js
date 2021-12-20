@@ -1,4 +1,4 @@
-
+// https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
 
 
 let vitamins = [
@@ -17,13 +17,21 @@ let vitamins = [
 
             <a class="close" href="#">&times;</a>
             <div class="popup-content">
+                <strong>Vegetables:</strong><br>
                 Green Pepper (Raw ½ cup): 60mg <br>
                 Broccoli (Cooked ½ cup): 51mg <br>
+                Brussels Sprouts (Cooked ½ cup): 48mg <br>
+                <strong>Fruits:</strong><br>
+                Strawberries (½ cup): 49mg <br>
+                Grapefruit (½ medium): 39mg <br>
+                Tomato (Raw 1 medium): 17mg <br>
+
             </div>
         </div>
     </div>
         
         `,
+
         benefits: `Antioxidant, Immune Function, Iron Absorption`,
         perDay: `Male: 90mg <br> Female: 75mg`,
         source: `<a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/" target="_blank">National Institute of Health</a>`,
@@ -42,5 +50,4 @@ let vitamins = [
 
 
 
-//Can add another property with a link to the scientific journal source
-//can add a more... link under the food list that displays a popup or modal window with a longer list of foods. Limit displayed food to 3
+

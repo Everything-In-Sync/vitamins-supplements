@@ -7,6 +7,11 @@ const submit = document.querySelector('#submit');
 let inputValue = document.querySelector('#input-value');
 const error = document.querySelector('#error');
 const removeWord = 'vitamin';
+document.addEventListener("keyup", function(event) {
+    if (event.key === 'Enter') {
+        getInput()
+    }
+});
 submit.addEventListener("click", getInput);
 function clearDisplay(){
     vitName.innerHTML = "";
@@ -48,4 +53,3 @@ function getInput() {
     }
 }
 
-//Add
