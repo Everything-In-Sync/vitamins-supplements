@@ -26,3 +26,23 @@ body{
 .vit-padding{
     padding-top: 20px;
 }
+.vitamin-list{
+    display: none;
+}
+ul{
+    list-style: none;
+}
+.column-1 {
+    float: left;
+    width: 50%;
+  }
+  .column-2 {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

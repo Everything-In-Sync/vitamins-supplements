@@ -6,6 +6,10 @@ const vitSource = document.querySelector('#vit-source');
 const submit = document.querySelector('#submit');
 let inputValue = document.querySelector('#input-value');
 const error = document.querySelector('#error');
+const vitaminListButton = document.querySelector('#vitamin-list-button');
+const vitaminList = document.querySelector('.vitamin-list');
+const columnOne = document.querySelector('.column-1');
+const columnTwo = document.querySelector('column-2');
 const removeWord = 'vitamin';
 document.addEventListener("keyup", function(event) {
     if (event.key === 'Enter') {
@@ -19,7 +23,18 @@ function clearDisplay(){
     vitBenefits.innerHTML = "";
     vitPerDay.innerHTML = "";
     vitSource.innerHTML = "";
+    columnOne.style.display = "none";
+    columnTwo.style.display = "none";
+    // vitaminList.style.display ="none";
 }
+
+vitaminListButton.addEventListener("click", displayList);
+function displayList(){
+    vitaminList.style.display = "block";
+}
+
+//If name contains 'B' then pull up all vitamins starting with b
+
 function getInput() {
     let vitamin = inputValue.value;
     //checks to make sure the user typed something in, if not, display error message
