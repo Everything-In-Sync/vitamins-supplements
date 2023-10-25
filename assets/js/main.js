@@ -23,15 +23,15 @@ function clearDisplay(){
     vitBenefits.innerHTML = "";
     vitPerDay.innerHTML = "";
     vitSource.innerHTML = "";
-    columnOne.style.display = "none";
-    columnTwo.style.display = "none";
+    // columnOne.style.display = "none";
+    // columnTwo.style.display = "none";
     // vitaminList.style.display ="none";
 }
 
-vitaminListButton.addEventListener("click", displayList);
-function displayList(){
-    vitaminList.style.display = "block";
-}
+// vitaminListButton.addEventListener("click", displayList);
+// function displayList(){
+//     vitaminList.style.display = "block";
+// }
 
 //If name contains 'B' then pull up all vitamins starting with b
 
